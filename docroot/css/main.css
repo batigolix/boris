@@ -486,8 +486,6 @@ aside a {
   color: #FFF;
 }
 
-
-
 /* The images styling is needed to turn the <ul> into a 3x3 grid */
 #images {
 	padding: 			0px;
@@ -518,11 +516,11 @@ aside a {
 .header-container h1.title {
   font-variant: all-caps;
   font-size: 100%;
-text-transform: uppercase;
+  text-transform: uppercase;
 }
 .header-container .subtitle {
   font-family: 'Bitter', serif;
   font-weight: normal;
   color: #FFF;
-  margin: 0;
+  margin: 0 0 0.75em 0;
 }
