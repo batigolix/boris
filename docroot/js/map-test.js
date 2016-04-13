@@ -42,7 +42,7 @@ var data = {
 	},
 	"GL": {
 		"name": {
-			"en": "Greenland"
+			"en": "Weenland"
 		},
 		"expiry": "31.12.2015",		
 		"type": "mixed",		
