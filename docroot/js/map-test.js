@@ -259,7 +259,7 @@ var data = {
       }
     }
   },
-  "GB": {
+  "UK": {
     "label": "United Kingdom",
     "projects": {
       "0": {
