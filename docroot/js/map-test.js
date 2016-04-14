@@ -4,7 +4,7 @@ var data = {
     "projects": {
       "0" : {
         "name": "Produktion der Zukunft (Production of the Future)",
-        "url" : "url": "http://www.ffg.at/produktion",
+        "url" : "http://www.ffg.at/produktion",
         "type": "national"
       }   
     }
@@ -21,12 +21,12 @@ var data = {
         "name": "Marshall 4.0",
         "url": "http://www.wallonie.be/fr/plan-marshall",
          "type": "national"
-      }   
+      },  
       "2": {
         "name": "Flanders Make ",
         "url": "http://www.flandersmake.be",
         "type": "national"
-      }
+      },
       "3": {
         "name": "iMinds",
         "url": "http://www.iminds.be",
@@ -166,7 +166,7 @@ var data = {
         "name": "Cluster Fabbrica Intelligente Lombardia AFIL (Cluster Intelligent Factories Lombardy)",
         "url": "http://www.afil.it",
         "type": "national"
-      },
+      }
     }
   },
   "LT": {
@@ -229,7 +229,7 @@ var data = {
     "projects": {
       "0": {
         "name": "Smart Industry",
-        "url": ""
+        "url": "",
         "type": "national"
       }
     }
@@ -244,7 +244,7 @@ var data = {
       },
       "1": {
         "name": "Basque Industry 4.0",
-        "http://www.spri.eus/industry40",
+        "url": "http://www.spri.eus/industry40",
         "type": "national"
       }
     }
