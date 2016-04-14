@@ -596,6 +596,9 @@ L.custom = {
           if ( data[country].projects ) {
             info += "<hr /><br />";
             var arrayLength = data[country].projects.length;
+
+console.log(arrayLength);
+
             for (var i = 0; i < arrayLength; i++) {
 
             	console.log(i);
