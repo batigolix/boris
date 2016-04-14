@@ -28,17 +28,17 @@ var data = {
       "1": {
         "name": "Marshall 4.0",
         "url": "http://www.wallonie.be/fr/plan-marshall",
-         "type": "national"
+         "type": "regional"
       },  
       "2": {
         "name": "Flanders Make ",
         "url": "http://www.flandersmake.be",
-        "type": "national"
+        "type": "regional"
       },
       "3": {
         "name": "iMinds",
         "url": "http://www.iminds.be",
-        "type": "national"
+        "type": "regional"
       }
     }
   },
@@ -108,7 +108,7 @@ var data = {
       "4": {
         "name": "FoF Ile-de-France",
         "url": "http://www.pole-astech.org/site/pages/index.php?doi=859b53568eb0059f7e6cbda05d35a77d",
-        "type": "national"
+        "type": "regional"
       }
     }
   },
@@ -138,12 +138,12 @@ var data = {
       "4": {
         "name": "It's OWL",
         "url": "http://www.its-owl.com/home",
-        "type": "national"
+        "type": "regional"
       },
       "5": {
         "name": "Allianz Industrie 4.0 Baden-Würtemberg",
         "url": "http://www.i40-bw.de",
-        "type": "national"
+        "type": "regional"
       }
     }
   },
@@ -153,7 +153,7 @@ var data = {
       "0": {
         "name": "Regional Operational Programme of Region of Western Greece for the Period 2014-2020",
         "url": "http://dytikiellada.gr",
-        "type": "national"
+        "type": "regional"
       }
     }
   },
@@ -173,7 +173,7 @@ var data = {
       "2": {
         "name": "Cluster Fabbrica Intelligente Lombardia AFIL (Cluster Intelligent Factories Lombardy)",
         "url": "http://www.afil.it",
-        "type": "national"
+        "type": "regional"
       }
     }
   },
@@ -253,7 +253,7 @@ var data = {
       "1": {
         "name": "Basque Industry 4.0",
         "url": "http://www.spri.eus/industry40",
-        "type": "national"
+        "type": "regional"
       }
     }
   },
@@ -288,7 +288,7 @@ var data = {
       "3": {
         "name": "Action Plan for Manufacturing",
         "url": "http://www.scottish-enterprise.com/knowledge-hub/articles/insight/scotlands-manufacturing-action-plan",
-        "type": "national"
+        "type": "regional"
       }
     }
   }
@@ -350,12 +350,12 @@ L.custom = {
         // console.log(feature);
         country = feature.properties.CNTR_ID;
         if ( data[country] ) {
-          var info = "<h3>" + data[country].label + "</h3>";
+          var info = "<strong>" + data[country].label + "</strong>";
           if ( data[country].projects ) {
             info += "<ul>";
             for (var key in data[country].projects) {
               console.log(key, data[country].projects[key]);
-              info += "<li><a href='" + data[country].projects[key].url + "'>" + data[country].projects[key].name + "</a></li>";
+              info += "<li class='" + data[country].projects[key].type + "'><a href='" + data[country].projects[key].url + "'>" + data[country].projects[key].name + "</a></li>";
             }
             info += "</ul>";
           }
