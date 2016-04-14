@@ -591,7 +591,7 @@ L.custom = {
         // console.log(feature);
         country = feature.properties.CNTR_ID;
         if ( data[country] ) {
-        	// console.log(data[country]);
+        	console.log(data[country]);
           var info = "<h3>" + data[country].label + "</h3>";
           if ( data[country].projects ) {
             info += "<hr /><br />";
