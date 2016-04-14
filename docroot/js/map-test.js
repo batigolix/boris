@@ -587,45 +587,20 @@ L.custom = {
           weight: 1        };
       },
       
+      // Builds popup content for each country.
       onEachFeature: function (feature, layer) {
         // console.log(feature);
         country = feature.properties.CNTR_ID;
         if ( data[country] ) {
           var info = "<h3>" + data[country].label + "</h3>";
           if ( data[country].projects ) {
-            info += "<hr /><br />";
-
-console.log(data[country].projects);
-
-            var arrayLength = data[country].projects.length;
-
-
-for (var key in data[country].projects) {
-  console.log(key, data[country].projects[key]);
-
-              info += "<p>" + data[country].projects[key].name + "</p>";
-
-
-}
-
-            for (var i = 0; i < arrayLength; i++) {
-
-            	console.log(i);
-
-console.log(data[country]);
-console.log(data[country].projects);
-console.log(data[country].projects[i]);
-console.log(data[country].projects.i);
-
-              var project = data[country].projects.i;
-
-              
-
-
-              info += "<p>" + project.name + "</p>";
+            info += "<ul>";
+            for (var key in data[country].projects) {
+              console.log(key, data[country].projects[key]);
+              info += "<li>" + data[country].projects[key].name + "</li>";
             }
+            info += "</ul>";
           }
-          // info += "<br /><br /><a href='" + data[country].link + "/index_en.htm'>Fisheries partnership agreement</a>";
         }
         else {
           info = country;
