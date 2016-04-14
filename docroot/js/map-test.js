@@ -309,7 +309,6 @@ L.custom = {
       "scrollWheelZoom": true
     });
     
-    L.tileLayer('//europa.eu/webtools/maps/tiles/countrynames_europe/{z}/{y}/{x}', []).addTo(map);
 L.wt.tileLayer("graybg", {attribution: "European Commission, DG CONNECT, Unit A3"}).addTo(map);
 
 
@@ -377,7 +376,8 @@ L.wt.tileLayer("graybg", {attribution: "European Commission, DG CONNECT, Unit A3
     };
     
     var eu_countries = L.wt.countries([{"level":0,"countries":countries}],country_options).addTo(map);
-   
+      L.tileLayer('//europa.eu/webtools/maps/tiles/countrynames_europe/{z}/{y}/{x}', []).addTo(map);
+ 
     $wt._queue("next"); // process next components
     
   }
