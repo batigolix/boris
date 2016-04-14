@@ -533,14 +533,16 @@ function getTrans(key) {
 L.custom = { 
   init: function(obj,params) {
     
-    obj.style.minHeight = "700px";
+    obj.style.minHeight = "330px";
     
     var map = L.map( obj, {
-      "center":[30,9],
-      "zoom":2,
-      "maxZoom":7, 
-      "minZoom": 1,
-      "maxBounds":[[-135, -270],[135, 270]]
+     "center" : [48,9],
+      "zoom" : 4,
+      "minZoom": 3,
+      "maxZoom": 8,
+      "dragging": true,
+      "touchZoom": true,
+      "scrollWheelZoom": true
     });
     
     var tileLayer = L.wt.tileLayer().addTo(map);
@@ -555,13 +557,11 @@ L.custom = {
           return "#FFEB9C";
         }
       }
-      return "#BBBBBB";
+      return "#C8E9F2";
     }
     
     var country_options = { // custom options to defined style and events
-      
       label : true,
-      
       style: function(feature){
         var opacity = 1;
         if (typeof feature.properties.type != "undefined") {
@@ -569,12 +569,12 @@ L.custom = {
         }
         return {
           fillColor: getColor(feature.properties.CNTR_ID),
-          weight: 1,
+          color: "#0065B1",
+          dashArray: 0,
+          fillOpacity: 0.9,
           opacity: 1,
-          color: "#fff",
-          dashArray: '0',
-          fillOpacity: opacity
-        };
+          smoothFactor: 1.5,
+          weight: 1        };
       },
       
       onEachFeature: function (feature, layer) {
