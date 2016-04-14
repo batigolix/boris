@@ -311,6 +311,10 @@ L.custom = {
     
     var tileLayer = L.wt.tileLayer("graybg", {attribution: "European Commission, DG CONNECT, Unit A3"}).addTo(map);
 
+
+    L.tileLayer('//europa.eu/webtools/maps/tiles/countrynames_europe/{z}/{y}/{x}', []);
+
+
     // Fetches country colours based on property.
     function getColor(CNTR_ID) {
       if ( data[CNTR_ID] && data[CNTR_ID].type ) {
