@@ -90,14 +90,17 @@ var data = {
       "2": {
         "name": "Transition Numérique",
         "url": "http://transition-numerique.fr",
+        "type": "national"
       },
       "3": {
         "name": "Le Programme des Investissements d’Avenir",
         "url": "http://www.agence-nationale-recherche.fr/investissements-d-avenir",
+        "type": "national"
       },
       "4": {
         "name": "FoF Ile-de-France",
         "url": "http://www.pole-astech.org/site/pages/index.php?doi=859b53568eb0059f7e6cbda05d35a77d",
+        "type": "national"
       }
     }
   },
@@ -107,26 +110,32 @@ var data = {
       "0": {
         "name": "Plattform Industrie 4.0",
         "url": "http://www.plattform-i40.de",
+        "type": "national"
       },
       "1": {
         "name": "Mittelstand 4.0",
         "url": "http://www.mittelstand-digital.de/DE/Foerderinitiativen/mittelstand-4-0.html",
+        "type": "national"
       },
       "2": {
         "name": "Smart Service World ",
         "url": "http://industrie4.0.gtai.de/INDUSTRIE40/Navigation/EN/Topics/smart-service-world.html",
+        "type": "national"
       },
       "3": {
         "name": "Autonomik for Industrie 4.0 - Production, Products, Services in the Internet of the Future",
         "url": "http://autonomik40.de",
+        "type": "national"
       },
       "4": {
         "name": "It's OWL",
         "url": "http://www.its-owl.com/home",
+        "type": "national"
       },
       "5": {
         "name": "Allianz Industrie 4.0 Baden-Würtemberg",
         "url": "http://www.i40-bw.de",
+        "type": "national"
       }
     }
   },
@@ -136,6 +145,7 @@ var data = {
       "0": {
         "name": "Regional Operational Programme of Region of Western Greece for the Period 2014-2020",
         "url": "http://dytikiellada.gr",
+        "type": "national"
       }
     }
   },
@@ -145,14 +155,17 @@ var data = {
       "0": {
         "name": "Internet of Things and Industry 4.0",
         "url": "",
+        "type": "national"
       },
       "1": {
         "name": "Cluster Fabbrica Intelligente CFI (Intelligent Factories Cluster)",
         "url": "http://www.fabbricaintelligente.it/",
+        "type": "national"
       },
       "2": {
         "name": "Cluster Fabbrica Intelligente Lombardia AFIL (Cluster Intelligent Factories Lombardy)",
         "url": "http://www.afil.it",
+        "type": "national"
       },
     }
   },
@@ -162,6 +175,7 @@ var data = {
       "0": {
         "name": "Demola Latvia (Riga IT TechHub)",
         "url": "http://latvia.demola.net/about",
+        "type": "national"
       }
     }
   },
@@ -171,169 +185,103 @@ var data = {
       "0": {
         "name": "Smart Industry",
         "url": "http://www.smartindustry.nl",
+        "type": "national"
       }
     }
   },
-  "CODE": {
+  "PL": {
     "label": "Poland",
     "projects": {
       "0": {
         "name": "INNOMED",
         "url": "http://www.ncbir.pl/programy-krajowe/programy-sektorowe/innomed",
+        "type": "national"
       },
       "1": {
         "name": "INNOLOT",
         "url": "http://www.ncbir.pl/programy-krajowe/programy-sektorowe/innolot",
+        "type": "national"
       },
       "2": {
         "name": "CuBR",
         "url": "http://www.ncbir.pl/en/news/art,3875,more-than-pln-100-million-in-3rd-competition-for-innovators-in-non-ferrous-metals-industry.html",
+        "type": "national"
       },
       "3": {
         "name": "BIOSTRATEG",
         "url": "http://www.ncbr.gov.pl/programy-strategiczne/srodowisko-naturalne-rolnictwo-i-lesnictwo---biostrateg",
+        "type": "national"
       }
     }
-  }
-
-  "CODE": {
-    "label": "",
-    "projects": {
-      "0": {
-        "name": "",
-        "url": ""
-      }
-    }
-  }
-
-  "CODE": {
-    "label": "",
-    "projects": {
-      "0": {
-        "name": "",
-        "url": ""
-      }
-    }
-  }
-
-
-
-
-
-
-
-
-
-",
-",
+  },
+  "PT": {
     "label": "Portugal",
+    "projects": {
+      "0": {
         "name": "PRODUTECH – Production Technologies Cluster",
-"www.produtech.org",
-"url": "http://mobilizadores.produtech.org/en",
-"url": "http://portal.produtech.org/",
-",
+        "url": "http://www.produtech.org",
+        "type": "national"
+      }
+    }
+  },
+  "SK": {
     "label": "Slovakia",
-"Smart Industry",
-",
-"",
+    "projects": {
+      "0": {
+        "name": "Smart Industry",
+        "url": ""
+        "type": "national"
+      }
+    }
+  },
+  "ES": {
     "label": "Spain",
-"Industria Conectada 4.0",
-"url": "http://www.industriaconectada40.gob.es",
-",
-"Spain/ Basque Country",
+    "projects": {
+      "0": {
+        "name": "Industria Conectada 4.0",
+        "url": "http://www.industriaconectada40.gob.es",
+        "type": "national"
+      },
+      "1": {
         "name": "Basque Industry 4.0",
-"www.spri.eus/industry40",
-",
+        "http://www.spri.eus/industry40",
+        "type": "national"
+      }
+    }
+  },
+  "SE": {
     "label": "Sweden",
+    "projects": {
+      "0": {
         "name": "Produktion 2030",
-"url": "http://www.produktion2030.se/",
-",
+        "url": "http://www.produktion2030.se",
+        "type": "national"
+      }
+    }
+  },
+  "GB": {
     "label": "United Kingdom",
+    "projects": {
+      "0": {
         "name": "High value Manufacturing Catapult",
-"url": "shttp://hvm.catapult.org.uk/",
-",
-"United Kingdom",
+        "url": "http://hvm.catapult.org.uk",
+        "type": "national"
+      },
+      "1": {
         "name": "Innovate UK",
-"url": "shttp://www.gov.uk/government/organisations/innovate-uk",
-",
-"United Kingdom",
+        "url": "http://www.gov.uk/government/organisations/innovate-uk",
+        "type": "national"
+      },
+      "2": {
         "name": "EPSRC Manufacturing the Future theme",
-"url": "shttp://www.epsrc.ac.uk/research/ourportfolio/themes/manufacturingthefuture/",
-",
-"United Kingdom - Scotland",
+        "url": "http://www.epsrc.ac.uk/research/ourportfolio/themes/manufacturingthefuture",
+        "type": "national"
+      },
+      "3": {
         "name": "Action Plan for Manufacturing",
-"url": "http://www.scottish-enterprise.com/knowledge-hub/articles/insight/scotlands-manufacturing-action-plan",
-",
-",
-"
-
-
-  "CODE": {
-    "label": "",
-    "projects": {
-      "0": {
-        "name": "",
-        "url": ""
+        "url": "http://www.scottish-enterprise.com/knowledge-hub/articles/insight/scotlands-manufacturing-action-plan",
+        "type": "national"
       }
     }
   }
-
-    "CODE": {
-    "label": "",
-    "projects": {
-      "0": {
-        "name": "",
-        "url": ""
-      }
-    }
-  }
-
-  "CODE": {
-    "label": "",
-    "projects": {
-      "0": {
-        "name": "",
-        "url": ""
-      }
-    }
-  }
-
-
-  "CODE": {
-    "label": "",
-    "projects": {
-      "0": {
-        "name": "",
-        "url": ""
-      }
-    }
-  }
-  "CODE": {
-    "label": "",
-    "projects": {
-      "0": {
-        "name": "",
-        "url": ""
-      }
-    }
-  }
-
-  "CODE": {
-    "label": "",
-    "projects": {
-      "0": {
-        "name": "",
-        "url": ""
-      }
-    }
-  }
-
-  "CODE": {
-    "label": "",
-    "projects": {
-      "0": {
-        "name": "",
-        "url": ""
-      }
-    }
-  }
+}
