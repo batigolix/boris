@@ -597,7 +597,7 @@ L.custom = {
             info += "<ul>";
             for (var key in data[country].projects) {
               console.log(key, data[country].projects[key]);
-              info += "<li><a href='" + data[country].projects[key].name + "'>"data[country].projects[key].name + "</a></li>";
+              info += "<li><a href='" + data[country].projects[key].url + "'>" + data[country].projects[key].name + "</a></li>";
             }
             info += "</ul>";
           }
