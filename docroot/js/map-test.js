@@ -553,8 +553,8 @@ L.custom = {
       "scrollWheelZoom": true
     });
     
-    var tileLayer = L.wt.tileLayer().addTo(map);
-    
+    var tileLayer = L.wt.tileLayer("graybg", {attribution: "European Commission, DG CONNECT, Unit A3"}).addTo(map);
+
     // Fetches country colours based on property.
     function getColor(CNTR_ID) {
       if ( data[CNTR_ID] && data[CNTR_ID].type ) {
