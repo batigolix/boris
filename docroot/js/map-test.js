@@ -343,8 +343,9 @@ L.custom = {
           dashArray: 0,
           fillOpacity: 0.9,
           opacity: 1,
-          smoothFactor: 5,
-          weight: 1        };
+          smoothFactor: 1,
+          weight: 1        
+        };
       },
       
       // Builds popup content for each country.
