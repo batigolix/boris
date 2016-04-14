@@ -309,10 +309,10 @@ L.custom = {
       "scrollWheelZoom": true
     });
     
-    var tileLayer = L.wt.tileLayer("graybg", {attribution: "European Commission, DG CONNECT, Unit A3"}).addTo(map);
-
-
     L.tileLayer('//europa.eu/webtools/maps/tiles/countrynames_europe/{z}/{y}/{x}', []).addTo(map);
+L.wt.tileLayer("graybg", {attribution: "European Commission, DG CONNECT, Unit A3"}).addTo(map);
+
+
 
 
     // Fetches country colours based on property.
