@@ -365,7 +365,7 @@ L.custom = {
         else {
           info = country;
         }
-        layer.bindInfo( "<p>" + info + "</p>");
+        layer.bindPopup( "<p>" + info + "</p>");
       }
     };
     
