@@ -598,10 +598,18 @@ L.custom = {
             var arrayLength = data[country].projects.length;
             for (var i = 0; i < arrayLength; i++) {
 
+            	console.log(i);
+
+console.log(data[country]);
+console.log(data[country].projects);
 console.log(data[country].projects[i]);
 console.log(data[country].projects.i);
 
               var project = data[country].projects.i;
+
+              
+
+
               info += "<p>" + project.name + "</p>";
             }
           }
