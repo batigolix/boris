@@ -1,3 +1,11 @@
+/**
+ * @file
+ * Provides custom map configuration for digitisation industry europe map.
+ * 
+ * Serves as input for Webtools' load.js.
+ */
+
+// Provides the map data.
 var data = {
   "AT": {
     "label": "Austria",
@@ -547,6 +555,7 @@ L.custom = {
     
     var tileLayer = L.wt.tileLayer().addTo(map);
     
+    // Fetches country colours based on property.
     function getColor(CNTR_ID) {
       if ( data[CNTR_ID] && data[CNTR_ID].type ) {
         if ( data[CNTR_ID].type === "tuna" ) {
@@ -560,7 +569,8 @@ L.custom = {
       return "#C8E9F2";
     }
     
-    var country_options = { // custom options to defined style and events
+    // Defines country colours.
+    var country_options = {
       label : true,
       style: function(feature){
         var opacity = 1;
@@ -581,6 +591,7 @@ L.custom = {
         console.log(feature);
         country = feature.properties.CNTR_ID;
         if ( data[country] ) {
+        	console.log(data[country]);
           var info = "<h3>" + data[country].label + "</h3>";
           if ( data[country].projects ) {
             info += "<hr /><br />";
