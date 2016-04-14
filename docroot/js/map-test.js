@@ -294,11 +294,12 @@ var data = {
   }
 }
 
+// Provides map configuration.
 L.custom = { 
   init: function(obj,params) {
     
-    obj.style.minHeight = "330px";
-    
+    // Creates map.
+    obj.style.minHeight = "330px";  
     var map = L.map( obj, {
      "center" : [48,9],
       "zoom" : 4,
@@ -308,13 +309,10 @@ L.custom = {
       "touchZoom": true,
       "scrollWheelZoom": true
     });
-    
-L.wt.tileLayer("graybg", {attribution: "European Commission, DG CONNECT, Unit A3"}).addTo(map);
-
-
-
+   L.wt.tileLayer("graybg", {attribution: "European Commission, DG CONNECT, Unit A3"}).addTo(map);
 
     // Fetches country colours based on property.
+    // Leftovers from fishery map. Could be useful to color individual countries.
     function getColor(CNTR_ID) {
       if ( data[CNTR_ID] && data[CNTR_ID].type ) {
         if ( data[CNTR_ID].type === "tuna" ) {
@@ -374,11 +372,13 @@ L.wt.tileLayer("graybg", {attribution: "European Commission, DG CONNECT, Unit A3
     for (var k in data) {
       countries.push(k);
     };
-    
+
+    // Adds countries to the map.    
     var eu_countries = L.wt.countries([{"level":0,"countries":countries}],country_options).addTo(map);
-      L.tileLayer('//europa.eu/webtools/maps/tiles/countrynames_europe/{z}/{y}/{x}', []).addTo(map);
+      // L.tileLayer('//europa.eu/webtools/maps/tiles/countrynames_europe/{z}/{y}/{x}', []).addTo(map);
  
-    $wt._queue("next"); // process next components
+    // Processes next components.
+    $wt._queue("next");
     
   }
 };
