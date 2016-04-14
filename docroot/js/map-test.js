@@ -597,7 +597,11 @@ L.custom = {
             info += "<hr /><br />";
             var arrayLength = data[country].projects.length;
             for (var i = 0; i < arrayLength; i++) {
-              var project = data[country].projects[i];
+
+console.log(data[country].projects[i]);
+console.log(data[country].projects.i);
+
+              var project = data[country].projects.i;
               info += "<p>" + project.name + "</p>";
             }
           }
