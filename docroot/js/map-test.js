@@ -328,7 +328,7 @@ L.custom = {
     
     // Defines country colours.
     var country_options = {
-      label : true,
+      label : {mode: "hover"},
       style: function(feature){
         var opacity = 1;
         if (typeof feature.properties.type != "undefined") {

@@ -270,7 +270,7 @@ L.custom = {
 		
 		var country_options = { // custom options to defined style and events
 			
-			label : {"mode" :"hover"},
+			label : true,
 			
 			style: function(feature){
 				var opacity = 1;
