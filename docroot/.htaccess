@@ -246,6 +246,7 @@ AddDefaultCharset utf-8
 
 <IfModule mod_rewrite.c>
    RewriteRule    ^resume/?$    /index.html#resume    [R,NE,L] 
+   RewriteRule    ^content/more-drupal-components-balsamiq-mockup    /files/more-drupal-components.bmml    [R,NE,L]
 
 </IfModule>
 
