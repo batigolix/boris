@@ -311,7 +311,7 @@ L.custom = {
   init: function(obj,params) {
     
     // Creates map.
-    obj.style.minHeight = "330px";  
+    obj.style.minHeight = "550px";  
     var map = L.map( obj, {
      "center" : [48,9],
       "zoom" : 4,
