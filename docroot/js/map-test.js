@@ -231,12 +231,12 @@ var data = {
         "type": "national"
       },
       "1": {
-        "name": "Link 2",
+        "name": "Produtech Mobilising Projects",
         "url": "http://mobilizadores.produtech.org/en",
         "type": "national"
       },
       "2": {
-        "name": "Link 3",
+        "name": "Productech Portal",
         "url": "http://portal.produtech.org",
         "type": "national"
       }
@@ -361,7 +361,7 @@ L.custom = {
       onEachFeature: function (feature, layer) {
         country = feature.properties.CNTR_ID;
         if ( data[country] ) {
-          var info = "<strong>" + data[country].label + "</strong>";
+          var info = "<b>" + data[country].label + "</b>";
           if ( data[country].projects ) {
             info += "<ul>";
             for (var key in data[country].projects) {
