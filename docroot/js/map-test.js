@@ -304,6 +304,16 @@ var data = {
   }
 }
 
+var eu_initiatives = '<b>EU-level Initiatives</b><ul>
+    <li>Application Public Private Partnerships:&nbsp;<a href="http://ec.europa.eu/research/industrial_technologies/factories-of-the-future_en.html">Factories of the Future(FoF)</a></li>
+    <li><a href="http://ec.europa.eu/research/industrial_technologies/sustainable-process-industry_en.html">Sustainable Process Industry (SPIRE)</a></li>
+    <li><a href="http://i4ms.eu/">ICT Innovation for Manufacturing SMEs (I4MS)</a></li>
+    <li><a href="https://ec.europa.eu/digital-single-market/en/smart-anything-everywhere">Smart Anything Everywhere</a></li>
+    <li>Digital Sector Public Private Partnerships &ndash;&nbsp;<a href="https://ec.europa.eu/digital-single-market/en/time-ecsel">ECSEL</a>,&nbsp;<a href="https://ec.europa.eu/digital-single-market/en/news/photonics-public-private-partnership-ppp-next-generation-photonics-solutions-sustain-europe%E2%80%99s">Photonics</a>,&nbsp;<a href="https://ec.europa.eu/digital-single-market/en/robotics-public-private-partnership-horizon-2020">Robotics</a>,&nbsp;<a href="https://ec.europa.eu/digital-single-market/en/high-performance-computing-contractual-public-private-partnership-hpc-cppp">High Performance Computing(HPC)</a>,&nbsp;<a href="https://ec.europa.eu/digital-single-market/en/future-internet-public-private-partnership">Advanced 5G networks for the Future Internet (5G)</a>,&nbsp;<a href="https://ec.europa.eu/digital-single-market/en/big-data-value-public-private-partnership">Big Data Value PPP</a></li>
+  </ul>
+  <b>Multi-region Initiatives</b>
+  <p><a href="https://ec.europa.eu/growth/tools-databases/regional-innovation-monitor/link/vanguard-initiative">Vanguard</a></p>';
+
 // Provides map configuration.
 L.custom = { 
   init: function(obj,params) {
@@ -368,6 +378,7 @@ L.custom = {
               info += "<li class='" + data[country].projects[key].type + "'><a href='" + data[country].projects[key].url + "'>" + data[country].projects[key].name + "</a></li>";
             }
             info += "</ul>";
+            info += eu_initiatives;
           }
         }
         else {
