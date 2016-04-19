@@ -367,14 +367,12 @@ L.custom = {
       
       // Builds popup content for each country.
       onEachFeature: function (feature, layer) {
-        // console.log(feature);
         country = feature.properties.CNTR_ID;
         if ( data[country] ) {
           var info = "<strong>" + data[country].label + "</strong>";
           if ( data[country].projects ) {
             info += "<ul>";
             for (var key in data[country].projects) {
-              console.log(key, data[country].projects[key]);
               info += "<li class='" + data[country].projects[key].type + "'><a href='" + data[country].projects[key].url + "'>" + data[country].projects[key].name + "</a></li>";
             }
             info += "</ul>";
