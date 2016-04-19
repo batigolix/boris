@@ -304,8 +304,8 @@ var data = {
   }
 }
 
-var eu_initiatives = "<b>EU-level Initiatives</b><ul>";
-  //   <li>Application Public Private Partnerships:<a href='http://ec.europa.eu/research/industrial_technologies/factories-of-the-future_en.html'>Factories of the Future(FoF)</a></li>
+var eu_initiatives = "<b>EU-level Initiatives</b><ul>
+     <li>Application Public Private Partnerships:<a href='http://ec.europa.eu/research/industrial_technologies/factories-of-the-future_en.html'>Factories of the Future(FoF)</a></li>";
   //   <li><a href='http://ec.europa.eu/research/industrial_technologies/sustainable-process-industry_en.html'>Sustainable Process Industry (SPIRE)</a></li>
   //   <li><a href='http://i4ms.eu/'>ICT Innovation for Manufacturing SMEs (I4MS)</a></li>
   //   <li><a href='https://ec.europa.eu/digital-single-market/en/smart-anything-everywhere'>Smart Anything Everywhere</a></li>
