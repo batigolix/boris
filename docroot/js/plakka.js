@@ -12,6 +12,9 @@ L.custom = {
     // var winners = Drupal.settings.winners.features;
     var settings = Drupal.settings.award_map_settings;
 
+console.log(Drupal.settings);
+
+
     obj.style.minHeight = "500px";
 
     // Creates map object.
