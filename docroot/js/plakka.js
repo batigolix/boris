@@ -87,7 +87,7 @@ console.log(Drupal.settings);
     //Creates layer switcher.
     var layersControl = [
          {
-           "label" : settings.layer_switch_title,
+           "label" : "Daaaaaaaaaaaahhhh",
            "checkbox": [
              {"label" : "Dohhhhhhhhhhhhhh", "layer" : kml2 },
              //{"label" : settings.submitted_layer_title, "layer" : submitted_layer },
