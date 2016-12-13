@@ -60,13 +60,13 @@ console.log(Drupal.settings);
     //
 
 
-    // Defines layer submitted projects.
-    // var markers_options = {"color": 'turquoise', "cluster": true}
-    // markers_options.onEachFeature = function (feature, layer) {
+    //Defines layer submitted projects.
+    //var markers_options = {"color": 'turquoise', "cluster": true}
+    //markers_options.onEachFeature = function (feature, layer) {
     //   layer.bindInfo("<h3>" + feature.properties.name + "</h3><p>" + feature.properties.description + "</p>");
-    // }
-    // var submitted_layer = L.wt.markers({"type":"FeatureCollection","features":submitted}, markers_options);
-    // submitted_layer.addTo(map);
+    //}
+    //var submitted_layer = L.wt.markers({"type":"FeatureCollection","features":submitted}, markers_options);
+    //submitted_layer.addTo(map);
 
     // // Defines layer winning projects.
     // var markers_options = {"color": 'pink', "cluster": false}
@@ -84,29 +84,29 @@ console.log(Drupal.settings);
     // var not_submitted_layer = L.wt.markers({"type":"FeatureCollection","features":not_submitted}, markers_options);
     // not_submitted_layer.addTo(map);
 
-    // Creates layer switcher.
-    // var layersControl = [
-    //     {
-    //       "label" : settings.layer_switch_title,
-    //       "checkbox": [
-    //         {"label" : settings.winners_layer_title, "layer" : winners_layer },
-    //         {"label" : settings.submitted_layer_title, "layer" : submitted_layer },
-    //         {"label" : settings.not_submitted_layer_title, "layer" : not_submitted_layer }
-    //       ]
-    //     },
-    //     {
-    //       "label" : settings.award_panel_title,
-    //       "xhtml": Drupal.settings.award_panel_body
-    //     }
-    //   ];
-    // var layers_panel = L.wt.sidebar({
-    //   "layers": {
-    //     "tooltip": "Layers",
-    //     "panel": layersControl,
-    //     "display": settings.award_panel_visible
-    //   }
-    // });
-    // layers_panel.addTo(map);
+    //Creates layer switcher.
+    var layersControl = [
+         {
+           "label" : settings.layer_switch_title,
+           "checkbox": [
+             {"label" : settings.winners_layer_title, "layer" : kml2 },
+             //{"label" : settings.submitted_layer_title, "layer" : submitted_layer },
+             //{"label" : settings.not_submitted_layer_title, "layer" : not_submitted_layer }
+           ]
+         },
+         {
+           "label" : settings.award_panel_title,
+           "xhtml": Drupal.settings.award_panel_body
+         }
+       ];
+    var layers_panel = L.wt.sidebar({
+       "layers": {
+         "tooltip": "Layers",
+         "panel": layersControl,
+         "display": settings.award_panel_visible
+       }
+    });
+    layers_panel.addTo(map);
 
     // Processes next components.
     $wt._queue("next");
