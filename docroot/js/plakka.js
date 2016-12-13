@@ -49,9 +49,7 @@ console.log(Drupal.settings);
 
     var kml = L.wt.markers( ["http://europa.eu/webtools/showcase/demo/map/data/kml_demo.kml"],{
       color:"orange",
-      cluster: {
-        radius: 120
-      }
+      cluster: false
     }).addTo(map);
 
     var kml2 = L.wt.markers( ["https://ec.europa.eu/digital-single-market/awards-map/submitted"],{
