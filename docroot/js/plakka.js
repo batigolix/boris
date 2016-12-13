@@ -89,7 +89,7 @@ console.log(Drupal.settings);
          {
            "label" : settings.layer_switch_title,
            "checkbox": [
-             {"label" : settings.winners_layer_title, "layer" : kml2 },
+             {"label" : "Dohhhhhhhhhhhhhh", "layer" : kml2 },
              //{"label" : settings.submitted_layer_title, "layer" : submitted_layer },
              //{"label" : settings.not_submitted_layer_title, "layer" : not_submitted_layer }
            ]
