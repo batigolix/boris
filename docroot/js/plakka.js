@@ -47,12 +47,21 @@ console.log(Drupal.settings);
     L.wt.countries([{"level":0, "countries":["EU28"]}], country_options).addTo(map);
 
 
-    var kml = L.wt.markers( ["http://europa.eu/webtools/showcase/demo/map/data/kml_demo.kml","unexisting_kml"],{
+    var kml = L.wt.markers( ["http://europa.eu/webtools/showcase/demo/map/data/kml_demo.kml"],{
       color:"orange",
       cluster: {
         radius: 120
       }
     }).addTo(map);
+
+    var kml = L.wt.markers( ["https://ec.europa.eu/digital-single-market//awards-map/submitted"],{
+      color:"pink",
+      cluster: {
+        radius: 60
+      }
+    }).addTo(map);
+
+    //
 
 
     // Defines layer submitted projects.
