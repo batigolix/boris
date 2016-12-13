@@ -56,9 +56,7 @@ console.log(Drupal.settings);
 
     var kml2 = L.wt.markers( ["https://ec.europa.eu/digital-single-market/awards-map/submitted"],{
       color:"pink",
-      //cluster: {
-      //  radius: 60
-      //}
+      cluster: false
     }).addTo(map);
 
     //
