@@ -93,17 +93,17 @@ console.log(Drupal.settings);
              //{"label" : settings.submitted_layer_title, "layer" : submitted_layer },
              //{"label" : settings.not_submitted_layer_title, "layer" : not_submitted_layer }
            ]
-         },
-         {
-           "label" : settings.award_panel_title,
-           "xhtml": Drupal.settings.award_panel_body
          }
+         //{
+         //  "label" : settings.award_panel_title,
+         //  "xhtml": Drupal.settings.award_panel_body
+         //}
        ];
     var layers_panel = L.wt.sidebar({
        "layers": {
          "tooltip": "Layers",
          "panel": layersControl,
-         "display": settings.award_panel_visible
+         "display": true
        }
     });
     layers_panel.addTo(map);
