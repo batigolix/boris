@@ -27,7 +27,7 @@ console.log(Drupal.settings);
       "touchZoom": true,
       "scrollWheelZoom": true
     });
-    L.wt.tileLayer("graybg", {attribution: settings.attribution}).addTo(map);
+    L.wt.tileLayer("graybg", {attribution: Drupal.settings.mapeditor_map.attribution}).addTo(map);
 
     // Defines options for the L.wt.countries method.
     var country_options = {
