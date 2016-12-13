@@ -54,11 +54,11 @@ console.log(Drupal.settings);
       }
     }).addTo(map);
 
-    var kml = L.wt.markers( ["https://ec.europa.eu/digital-single-market//awards-map/submitted"],{
+    var kml2 = L.wt.markers( ["https://ec.europa.eu/digital-single-market/awards-map/submitted"],{
       color:"pink",
-      cluster: {
-        radius: 60
-      }
+      //cluster: {
+      //  radius: 60
+      //}
     }).addTo(map);
 
     //
