@@ -1,11 +1,11 @@
-
-<script  type="text/javascript">
-    r(function(){
+r(function(){
     (function ($, Drupal) {
-
-//Start function
-        alert('hi');
-//End function
-
+        //Start function
+            alert('hi');
+        //End function
     })(jQuery, Drupal);
 });
+
+function r(f){
+    /in/.test(document.readyState)?setTimeout('r('+f+')',9):f()
+}
