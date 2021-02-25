@@ -42,7 +42,7 @@ r(function () {
                 marker: {
                     symbol: 'circle'
                 },
-                data: [{
+        [{
                     x: Date.UTC(1951, 5, 22),
                     name: 'First dogs in space',
                     label: 'First dogs in space',
