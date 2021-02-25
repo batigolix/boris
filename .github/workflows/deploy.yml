@@ -17,6 +17,8 @@ jobs:
           debug: true
           script: |
             cd ${{ secrets.DIR }}
+            git reset --hard
+            git clean -fd
             git fetch --all
             git checkout master
             git pull origin master
