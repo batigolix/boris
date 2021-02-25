@@ -1,4 +1,7 @@
-//Start function
+r(function () {
+    (function ($, Drupal) {
+
+        //Start function
 
 // Bundles column data.
 function dataHandling(input){
@@ -13,7 +16,7 @@ function dataHandling(input){
 
 // Loads external data.
 var request = new XMLHttpRequest();
-request.open("GET", 'files/4.csv', false);
+request.open("GET", 'https://boris.doesb.org/files/4.csv', false);
 request.send(null);
 
 // Converts CSV text to array.
@@ -108,3 +111,12 @@ Highcharts.chart('container', {
 });
 
 //End function
+
+
+    })(jQuery, Drupal);
+});
+
+
+function r(f) {
+    /in/.test(document.readyState) ? setTimeout('r(' + f + ')', 9) : f()
+}
