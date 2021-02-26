@@ -3,7 +3,7 @@ r(function () {
 
 // Loads external data.
 var request = new XMLHttpRequest();
-request.open("GET", '/files/5.csv', false);
+request.open("GET", 'https://boris.doesb.org/files/5.csv', false);
 request.send(null);
 
 // Converts CSV text to array.
