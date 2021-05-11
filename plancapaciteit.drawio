@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-10T09:43:15.436Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="jhjhWYYzQv69QqzVpqlQ" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-11T07:10:46.397Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="Pk2xYelOm-16vHw1zAz1" version="14.6.11" type="github">
   <diagram id="39z5Df2q-kwCK52Rq-0x" name="Page-1">
     <mxGraphModel dx="1224" dy="1130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -92,7 +92,7 @@
           <mxGeometry x="135" y="150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BRQ3Z2YgLDj1acGwxylS-29" value="Kaart bekijken" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="135" y="222" width="120" height="60" as="geometry" />
+          <mxGeometry x="135" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BRQ3Z2YgLDj1acGwxylS-30" value="Kaartenserver&lt;br&gt;&lt;i&gt;Geoserver&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="330" y="490" width="140" height="90" as="geometry" />
@@ -113,9 +113,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BRQ3Z2YgLDj1acGwxylS-38" value="Kaart" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="325" y="290" width="150" height="90" as="geometry" />
+          <mxGeometry x="325" y="365" width="150" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="BRQ3Z2YgLDj1acGwxylS-39" value="" style="endArrow=classic;html=1;fontSize=12;fontColor=#000000;entryX=1.001;entryY=0.636;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.227;exitY=0.284;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="BRQ3Z2YgLDj1acGwxylS-38" target="BRQ3Z2YgLDj1acGwxylS-1" edge="1">
+        <mxCell id="BRQ3Z2YgLDj1acGwxylS-39" value="" style="endArrow=classic;html=1;fontSize=12;fontColor=#000000;entryX=1.018;entryY=0.857;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.227;exitY=0.284;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="BRQ3Z2YgLDj1acGwxylS-38" target="BRQ3Z2YgLDj1acGwxylS-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="430" as="sourcePoint" />
             <mxPoint x="440" y="380" as="targetPoint" />
@@ -155,6 +155,30 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="145" y="185.71428571428567" as="sourcePoint" />
             <mxPoint x="80" y="181.07142857142856" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wATQwqGRJF_44PM2LAj7-1" value="Content raadplegen" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="135" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wATQwqGRJF_44PM2LAj7-2" value="&lt;b&gt;Content&lt;/b&gt;&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;span&gt;- nieuws&lt;/span&gt;&lt;br&gt;&lt;span&gt;- pagina&#39;s&lt;/span&gt;&lt;br&gt;&lt;span&gt;- handleidingen&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fontColor=#000000;verticalAlign=top;align=left;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="345" y="270" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wATQwqGRJF_44PM2LAj7-3" value="" style="endArrow=classic;html=1;fontSize=10;fontColor=#4D4D4D;" edge="1" parent="1" target="BRQ3Z2YgLDj1acGwxylS-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="300" as="sourcePoint" />
+            <mxPoint x="280.1500000000001" y="224.72000000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wATQwqGRJF_44PM2LAj7-4" value="" style="endArrow=none;html=1;fontSize=10;fontColor=#4D4D4D;entryX=-0.02;entryY=0.692;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="wATQwqGRJF_44PM2LAj7-2" target="BRQ3Z2YgLDj1acGwxylS-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="310" as="sourcePoint" />
+            <mxPoint x="540" y="255.50892857142867" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wATQwqGRJF_44PM2LAj7-5" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontSize=10;fontColor=#000000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="BRQ3Z2YgLDj1acGwxylS-1" target="e_hBXvjrP_8piOeVsNDX-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="145" y="185.71428571428578" as="sourcePoint" />
+            <mxPoint x="80" y="181.07142857142867" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
